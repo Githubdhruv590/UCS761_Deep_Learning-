@@ -1,0 +1,11 @@
+Model,Depth,Activation,Optimizer,Params,Train Acc,Val Acc,Test Acc
+Dense-2L,2,ReLU,SGD,17,0.704,0.749,0.74
+Dense-5L,5,ReLU,SGD,151,0.704,0.749,0.74
+Dense-10L,10,Sigmoid,SGD,609,0.704,0.749,0.74
+Dense-Img,1,ReLU,SGD,1057,1.0,1.0,1.0
+CNN-Pool,Conv,ReLU,SGD,20,1.0,1.0,1.0
+CNN-NoPool,Conv,ReLU,SGD,47,1.0,1.0,1.0
+CNN-Dropout,Conv,ReLU,SGD,20,1.0,1.0,1.0
+CNN-SGD,Conv,ReLU,SGD,77,1.0,1.0,1.0
+CNN-Momentum,Conv,ReLU,Momentum,77,1.0,1.0,1.0
+CNN-Adam,Conv,ReLU,Adam,77,1.0,1.0,1.0
